@@ -7,5 +7,8 @@ package com.thoughtworks.practice;
  * Time: 下午3:20
  * To change this template use File | Settings | File Templates.
  */
-public class WrongUnitException {
+public class WrongUnitException extends Throwable {
+    public WrongUnitException(String message) {
+         super(message);
+    }
 }

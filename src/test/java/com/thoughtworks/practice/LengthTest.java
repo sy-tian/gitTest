@@ -2,6 +2,7 @@ package com.thoughtworks.practice;
 
 import org.junit.Test;
 
+import static junit.framework.Assert.assertEquals;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -47,6 +48,52 @@ public class LengthTest {
         Length mile = new Length(1, "Mile");
         Length yard = new Length(1760, "Yard");
         assertThat(mile.equals(yard), is(true));
+
+
+    }
+
+    @Test
+    public void should_be_equal_with_mile_and_feets() throws Exception {
+        Length mile = new Length(1, "Mile");
+        Length feet = new Length(5280, "Feet");
+        assertThat(mile.equals(feet), is(true));
+
+    }
+
+    @Test
+    public void should_be_equal_with_yard_and_Feets() throws Exception {
+        Length yard = new Length(1, "Yard");
+        Length feet = new Length(3, "Feet");
+        assertThat(yard.equals(feet), is(true));
+
+    }
+
+    @Test
+    public void should_be_equal_with_feet_and_Inchs() throws Exception {
+        Length feet = new Length(1, "Feet");
+        Length inch = new Length(12, "Inch");
+        assertThat(feet.equals(inch), is(true));
+
+    }
+
+    @Test
+    public void should_throw_exception_with_wrong_unit() throws Exception {
+        Length km = new Length(2, "KM");
+    }
+
+    @Test
+    public void should_get_right_plus_result() throws Exception {
+        Length feet = new Length(1, "Feet");
+        Length inch = new Length(2, "Inch");
+        assertEquals(feet.plus(inch), new Length(14, "Inch"));
+
+    }
+
+    @Test
+    public void should_get_right_feet() throws Exception {
+        Length inch = new Length(1, "Inch");
+        Length yard = new Length(1, "Yard");
+        assertEquals(inch.plus(yard), new Length(37, "Inch"));
 
     }
 }
