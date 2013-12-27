@@ -1,8 +1,10 @@
 package com.thoughtworks.practice;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertTrue;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -14,6 +16,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
  * To change this template use File | Settings | File Templates.
  */
 public class LengthTest {
+    private Length length = new Length();
+
     @Test
     public void should_be_equal_with_same_Yards() throws Exception {
         Length yard = new Length(2, "Yard");
@@ -27,6 +31,7 @@ public class LengthTest {
         assertThat(yard.equals(yard1), is(false));
 
     }
+
     @Test
     public void should_be_equal_with_same_miles() throws Exception {
         Length mile = new Length(1, "Mile");
@@ -35,13 +40,13 @@ public class LengthTest {
         assertThat(mile.equals(anotherMile), is(true));
     }
 
+
     @Test
     public void should_be_not_equal_with_different_miles() throws Exception {
         Length mile = new Length(2,"Mile");
         Length anotherMile = new Length(3,"Mile");
         assertThat(mile.equals(anotherMile), is(false));
     }
-
 
     @Test
     public void should_be_equal_with_mile_and_yards() throws Exception {
@@ -76,9 +81,9 @@ public class LengthTest {
 
     }
 
-    @Test
-    public void should_throw_exception_with_wrong_unit() throws Exception {
-        Length km = new Length(2, "KM");
+    @Test(expected = WrongUnitException.class)
+    public void should_throw_expected_exception() throws WrongUnitException {
+         length.validateUnit("KM");
     }
 
     @Test
@@ -96,4 +101,5 @@ public class LengthTest {
         assertEquals(inch.plus(yard), new Length(37, "Inch"));
 
     }
+
 }

@@ -4,33 +4,18 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Length {
-    int value;
     private String unit;
-    private List list = Arrays.asList("Mile", "Yard", "Feet", "Inch");
-    private int []chargeArray = new int[]{1, 1760, 3, 12};
+    private int value;
+    private final int []chargeArray = new int[]{1, 1760, 3, 12};
+    private final List<String> list = Arrays.asList("Mile", "Yard", "Feet", "Inch");
 
-    public Length(int value, String unit) {
-        //To change body of created methods use File | Settings | File Templates.
-        if(is_belong_to_this_unit_lib(unit)){
-            this.unit = unit;
+    public Length() {
+    }
+
+    public Length(int value, String unit){
             this.value = value;
-        }
-
+            this.unit = unit;
     }
-    private boolean is_belong_to_this_unit_lib(String unit) {
-        try{
-            if(!list.contains(unit)){
-                throw new WrongUnitException("this unit is not in unit lib");
-            }
-        } catch (WrongUnitException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
-        return true;
-    }
-    public String getUnit() {
-        return unit;
-    }
-
     public int getValue() {
         return value;
     }
@@ -70,16 +55,16 @@ public class Length {
     }
 
     private boolean is_smaller_unit(Length length) {
-        return get_index_of_unit() < length.get_index_of_unit();
+        return get_list_index_of_unit() < length.get_list_index_of_unit();
     }
+
     private void transfer_bigger_unit_to_smaller_unit(Length length) {
-        for(int i = get_index_of_unit();i < length.get_index_of_unit();i++){
-            value *= chargeArray[i+1];
+        for (int i = get_list_index_of_unit(); i < length.get_list_index_of_unit(); i++) {
+            value *= chargeArray[i + 1];
         }
         unit = length.getUnit();
     }
-
-    private int get_index_of_unit() {
+    public int get_list_index_of_unit() {
         return list.indexOf(unit);
     }
 
@@ -87,11 +72,13 @@ public class Length {
         return value == length.getValue();
     }
 
-    @Override
-    public int hashCode() {
-        int result = value;
-        result = 31 * result + unit.hashCode();
-        result = 31 * result + list.hashCode();
-        return result;
+    public String getUnit() {
+        return unit;
+    }
+
+    public void validateUnit(String unit) throws WrongUnitException {
+       if(!list.contains(unit)){
+           throw new WrongUnitException("this unit is not in the lib");
+       }
     }
 }
