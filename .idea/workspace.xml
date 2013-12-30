@@ -4,21 +4,25 @@
     <list default="true" id="37005f57-43e9-4f82-a8c9-e390646ab311" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Length.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Length.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/LengthTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/LengthTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Unit.java" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Unit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MileTestDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/build.gradle" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1387702042213" ignored="false" />
     <file path="/MileTest.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1387702484510" ignored="false" />
-    <file path="/fragment.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1387797779643" ignored="false" />
+    <file path="/fragment.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1388309694223" ignored="false" />
     <file path="/Mile.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1387765675812" ignored="false" />
-    <file path="/Dummy.txt" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1388124676395" ignored="false" />
+    <file path="/Dummy.txt" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1388385885099" ignored="false" />
     <file path="/YardTest.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1387702855364" ignored="false" />
     <file path="/Yard.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1387703472746" ignored="false" />
-    <file path="/LengthTest.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1388128854930" ignored="false" />
-    <file path="/Length.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1388128942747" ignored="false" />
+    <file path="/LengthTest.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1388396557146" ignored="false" />
+    <file path="/Length.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1388397617894" ignored="false" />
     <file path="/WrongUnitException.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1387798332863" ignored="false" />
-    <file path="/Unit.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1387798024928" ignored="false" />
+    <file path="/Unit.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1388304699421" ignored="false" />
+    <file path="/LengthDemo.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1388299855226" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/LengthDemo.java" changelist="37005f57-43e9-4f82-a8c9-e390646ab311" time="1388299908003" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -70,6 +73,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -79,28 +83,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LengthTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LengthTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/LengthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="65" selection-start="2638" selection-end="2638" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="44" column="56" selection-start="1284" selection-end="1284" vertical-scroll-proportion="-5.3758388">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Length.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Length.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Length.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="8" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.7832898">
+            <state line="9" column="31" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WrongUnitException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/WrongUnitException.java">
+      <file leaf-file-name="Unit.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+            <state line="44" column="28" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,6 +127,78 @@
       <MyDateState />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="availableTasks">
+      <list>
+        <GradleTaskDescriptor>
+          <option name="description" value="Compiles source set 'test:java'." />
+          <option name="name" value="compileTestJava" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles the outputs of this project." />
+          <option name="name" value="assemble" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles and tests this project." />
+          <option name="name" value="build" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Processes source set 'test:resources'." />
+          <option name="name" value="processTestResources" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles classes 'test'." />
+          <option name="name" value="testClasses" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Processes source set 'main:resources'." />
+          <option name="name" value="processResources" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="wrapper" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Deletes the build directory." />
+          <option name="name" value="clean" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Runs the unit tests." />
+          <option name="name" value="test" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="initProject" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles classes 'main'." />
+          <option name="name" value="classes" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+          <option name="name" value="buildDependents" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles and tests this project and all projects it depends on." />
+          <option name="name" value="buildNeeded" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Compiles source set 'main:java'." />
+          <option name="name" value="compileJava" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Generates Javadoc API documentation for the main source code." />
+          <option name="name" value="javadoc" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Runs all checks." />
+          <option name="name" value="check" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles a jar archive containing the main classes." />
+          <option name="name" value="jar" />
+        </GradleTaskDescriptor>
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -129,11 +207,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Yard.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/YardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Mile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Unit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/String.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/WrongUnitException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/LengthTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/LengthDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Unit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Length.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/LengthTest.java" />
       </list>
     </option>
   </component>
@@ -174,7 +253,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,7 +330,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +341,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="I:/jar包/guava-15.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -313,7 +392,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="LengthTest.should_be_equal_with_mile_and_feets" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="LengthTest.testThrowException" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.thoughtworks.practice.*" />
@@ -325,7 +404,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks.practice" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.practice.LengthTest" />
-      <option name="METHOD_NAME" value="should_be_equal_with_mile_and_feets" />
+      <option name="METHOD_NAME" value="testThrowException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -341,7 +420,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="LengthTest.should_throw_exception_with_wrong_unit" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="LengthTest.testGetRightDescAboutFeet" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.thoughtworks.practice.*" />
@@ -353,7 +432,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks.practice" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.practice.LengthTest" />
-      <option name="METHOD_NAME" value="should_throw_exception_with_wrong_unit" />
+      <option name="METHOD_NAME" value="testGetRightDescAboutFeet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -369,7 +448,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="LengthTest.should_get_right_plus_result" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="LengthTest.testAnotherDescAboutFeet" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.thoughtworks.practice.*" />
@@ -381,7 +460,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks.practice" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.practice.LengthTest" />
-      <option name="METHOD_NAME" value="should_get_right_plus_result" />
+      <option name="METHOD_NAME" value="testAnotherDescAboutFeet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -397,7 +476,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="LengthTest.should_show_two_length" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="LengthTest.testChooseAnotherDescAboutLength" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.thoughtworks.practice.*" />
@@ -409,7 +488,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks.practice" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.practice.LengthTest" />
-      <option name="METHOD_NAME" value="should_show_two_length" />
+      <option name="METHOD_NAME" value="testChooseAnotherDescAboutLength" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -421,13 +500,7 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -533,18 +606,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.LengthTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LengthTest.should_be_equal_with_mile_and_feets" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LengthTest.should_throw_exception_with_wrong_unit" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LengthTest.should_get_right_plus_result" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LengthTest.should_show_two_length" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LengthTest.testThrowException" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LengthTest.testGetRightDescAboutFeet" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LengthTest.testAnotherDescAboutFeet" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LengthTest.testChooseAnotherDescAboutLength" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.LengthTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LengthTest.should_show_two_length" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LengthTest.should_get_right_plus_result" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LengthTest.should_throw_exception_with_wrong_unit" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LengthTest.should_be_equal_with_mile_and_feets" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LengthTest.testChooseAnotherDescAboutLength" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LengthTest.testAnotherDescAboutFeet" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LengthTest.testGetRightDescAboutFeet" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LengthTest.testThrowException" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -599,34 +672,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="178" y="89" width="1182" height="544" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7008547" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32136753" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08547009" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2991453" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32649574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7008547" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23787878" sideWeight="0.7008547" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2991453" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13409092" sideWeight="0.8102564" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1897436" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -695,24 +768,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Length.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="5" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/WrongUnitException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/LengthTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -723,17 +784,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/WrongUnitException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/LengthTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -744,17 +800,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/WrongUnitException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/LengthTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="43" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -777,29 +828,29 @@
     </entry>
     <entry file="jar://D:/Java/jdk1.7.0/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="504" column="39" selection-start="22605" selection-end="22605" vertical-scroll-proportion="-0.34679335">
-          <folding />
-        </state>
+        <state line="504" column="39" selection-start="22605" selection-end="22605" vertical-scroll-proportion="-0.34679335" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/WrongUnitException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/LengthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="65" selection-start="2638" selection-end="2638" vertical-scroll-proportion="0.0">
+        <state line="44" column="28" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/practice/Length.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="8" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.7832898">
+        <state line="9" column="31" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/practice/LengthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="56" selection-start="1284" selection-end="1284" vertical-scroll-proportion="-5.3758388">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

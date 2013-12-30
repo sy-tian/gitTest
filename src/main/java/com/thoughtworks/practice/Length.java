@@ -1,27 +1,25 @@
 package com.thoughtworks.practice;
 
-import java.util.Arrays;
-import java.util.List;
 
 public class Length {
-    private String unit;
     private int value;
-    private final int []chargeArray = new int[]{1, 1760, 3, 12};
-    private final List<String> list = Arrays.asList("Mile", "Yard", "Feet", "Inch");
-
-    public Length() {
-    }
-
-    public Length(int value, String unit){
+    private Unit unit;
+    public Length(int value, String unit) {
+        //To change body of created methods use File | Settings | File Templates.
+            this.unit = Unit.valueOf(unit);
             this.value = value;
-            this.unit = unit;
+
     }
+    public Unit getUnit() {
+        return unit;
+    }
+
     public int getValue() {
         return value;
     }
     public Length plus(Length length) {
-        if(!is_same_units(length)){
-            transfer_to_same_unit(length);
+        if(!isSameUnits(length)){
+            transferToSameUnit(length);
         }
         value += length.getValue();
         return this;
@@ -33,52 +31,95 @@ public class Length {
 
         Length length = (Length) o;
 
-        return is_equals_to_another_length(length);
+        return isEqualsToAnotherLength(length);
     }
 
-    private boolean is_equals_to_another_length(Length length){
-        if(!is_same_units(length)){
-            transfer_to_same_unit(length);
+    private boolean isEqualsToAnotherLength(Length length){
+        if(!isSameUnits(length)){
+            transferToSameUnit(length);
         }
-        return is_same_values(length);
+        return isSameValues(length);
     }
 
-    private boolean is_same_units(Length length) {
-        return unit.equals(length.getUnit());
+    private boolean isSameUnits(Length length) {
+        return unit.compareTo(length.getUnit()) == 0;
     }
-    private void transfer_to_same_unit(Length length){
-        if(is_smaller_unit(length)){
-            transfer_bigger_unit_to_smaller_unit(length);
+    private void transferToSameUnit(Length length){
+        if(isSmallerUnit(length)){
+            transferBiggerUnitToSmallerUnit(length.getUnit());
         }else{
-            length.transfer_to_same_unit(this);
+            length.transferToSameUnit(this);
         }
     }
 
-    private boolean is_smaller_unit(Length length) {
-        return get_list_index_of_unit() < length.get_list_index_of_unit();
+    private boolean isSmallerUnit(Length length) {
+        return unit.compareTo(length.getUnit()) < 0;
     }
 
-    private void transfer_bigger_unit_to_smaller_unit(Length length) {
-        for (int i = get_list_index_of_unit(); i < length.get_list_index_of_unit(); i++) {
-            value *= chargeArray[i + 1];
+    private void transferBiggerUnitToSmallerUnit(Unit anotherUnit) {
+           while(unit.compareTo(anotherUnit) < 0){
+               value *= unit.getExchangeRate();
+               unit = unit.getNextUnit();
         }
-        unit = length.getUnit();
-    }
-    public int get_list_index_of_unit() {
-        return list.indexOf(unit);
     }
 
-    private boolean is_same_values(Length length) {
+    private boolean isSameValues(Length length) {
         return value == length.getValue();
     }
 
-    public String getUnit() {
-        return unit;
+    @Override
+    public int hashCode() {
+        int result = value;
+        result = 31 * result + (unit != null ? unit.hashCode() : 0);
+        return result;
     }
 
-    public void validateUnit(String unit) throws WrongUnitException {
-       if(!list.contains(unit)){
-           throw new WrongUnitException("this unit is not in the lib");
-       }
+    public String getOneDesc() {
+        if (isMeaningFullToValueAndLastUnit()) {
+            return getDescAfterTransferUnit();
+        }else
+            return getLengthDescByValue(value);
     }
+
+    private String getLengthDescByValue(int value) {
+        return value + " " + unit.toString().toUpperCase()+ " ";
+    }
+
+    private String getDescAfterTransferUnit() {
+        Unit unit1 = unit.getLastUnit();
+        int multiply = getMultiplyForBiggerUnit(unit1);
+        if (multiply != 0)
+                return getBiggerUnitDesc(unit1, multiply) + getRemainderDesc(unit1);
+        else
+                return getLengthDescByValue(value);
+    }
+
+    private String getBiggerUnitDesc(Unit unit1, int multiply) {
+        return new Length(multiply, unit1.toString()).getOneDesc();
+    }
+
+    private String getRemainderDesc(Unit unit) {
+        int remainder = getRemainderForBiggerUnit(unit);
+        if(remainder != 0) return getLengthDescByValue(remainder);
+        else return "";
+    }
+
+    private int getRemainderForBiggerUnit(Unit unit1) {
+        return value % unit1.getExchangeRate();
+    }
+
+    private int getMultiplyForBiggerUnit(Unit unit1) {
+        return value / unit1.getExchangeRate();
+    }
+
+    private boolean isMeaningFullToValueAndLastUnit() {
+        return value != 0 && unit.getLastUnit() != null;
+    }
+
+    public String getAnotherDesc() {
+        String str = "Length("+value+", "+ unit.toString().toUpperCase() + ") => ";
+        transferBiggerUnitToSmallerUnit(Unit.Inch);
+        return str + getLengthDescByValue(value);
+    }
+
 }
