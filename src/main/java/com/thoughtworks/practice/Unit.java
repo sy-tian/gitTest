@@ -9,14 +9,17 @@ package com.thoughtworks.practice;
  */
 public enum Unit {
     Mile(1760), Yard(3), Feet(12), Inch(1);
-    private int exchangeRate;
+    private int rate;
 
-    Unit(int exchangeRate) {
-        //To change body of created methods use File | Settings | File Templates.
-        this.exchangeRate = exchangeRate;
+    Unit(int rate) {
+        this.rate = rate;
     }
 
-    public Unit getNextUnit() {
+    public int getRate() {
+        return rate;
+    }
+
+    public Unit getNext() {
         switch (this) {
             case Mile:
                 return Yard;
@@ -28,12 +31,7 @@ public enum Unit {
                 return null;
         }
     }
-
-    public int getExchangeRate() {
-        return exchangeRate;
-    }
-
-    public Unit getLastUnit() {
+    public Unit getLast() {
         switch (this) {
             case Inch:
                 return Feet;
@@ -44,5 +42,11 @@ public enum Unit {
             default:
                 return null;
         }
+    }
+    public int getMultiplier(int value){
+        return value / rate;
+    }
+    public int getRemainder(int value){
+        return value % rate;
     }
 }
